@@ -26,7 +26,8 @@ public class UserController {
 
     @Autowired
     UserServie userServie;
-    
+
+    //abdon of this
     public ResultObject addOneUser(UserSaveDto userSaveDto) {
         userServie.addUser(userSaveDto);
         return new ResultObject(ResultEnum.SUCCESS);
